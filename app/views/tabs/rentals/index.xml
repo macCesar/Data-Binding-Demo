@@ -1,5 +1,5 @@
 <Alloy>
-	<Window title="Rentals">
-		<Label text="Rentals - Comming Soon!" />
-	</Window>
+  <Window title="Rentals">
+    <Label text="Rentals - Comming Soon!" />
+  </Window>
 </Alloy>

@@ -1,132 +1,132 @@
 [
-	{
-		"type": "sent",
-		"sender": {
-			"name": "James Thompson",
-			"image": "https://randomuser.me/api/portraits/men/15.jpg",
-			"nickname": "jimmy123"
-		},
-		"message": "Hey everyone, I just started learning how to program and I'm really excited about it!",
-		"timestamp": "12:01 PM"
-	},
-	{
-		"type": "received",
-		"sender": {
-			"name": "Melissa Green",
-			"image": "https://randomuser.me/api/portraits/women/73.jpg",
-			"nickname": "melove"
-		},
-		"message": "That's great! What language are you learning?",
-		"timestamp": "12:03 PM"
-	},
-	{
-		"type": "sent",
-		"sender": {
-			"name": "James Thompson",
-			"image": "https://randomuser.me/api/portraits/men/15.jpg",
-			"nickname": "jimmy123"
-		},
-		"message": "I'm learning Python right now. It's been a lot of fun so far.",
-		"timestamp": "12:03 PM"
-	},
-	{
-		"type": "received",
-		"sender": {
-			"name": "Ashley Davis",
-			"image": "https://randomuser.me/api/portraits/women/25.jpg",
-			"nickname": "ash_456"
-		},
-		"message": "I love Python too! It's a really versatile language and there are so many things you can do with it.",
-		"timestamp": "12:04 PM"
-	},
-	{
-		"type": "received",
-		"sender": {
-			"name": "Michael Wilson",
-			"image": "https://randomuser.me/api/portraits/men/35.jpg",
-			"nickname": "mwilson_789"
-		},
-		"message": "Yeah, I agree. I've been using Python for a while now and it's definitely one of my favorite languages.",
-		"timestamp": "12:05 PM"
-	},
-	{
-		"type": "sent",
-		"sender": {
-			"name": "James Thompson",
-			"image": "https://randomuser.me/api/portraits/men/15.jpg",
-			"nickname": "jimmy123"
-		},
-		"message": "I'm still a beginner, so I'm focusing on the basics right now. But I'm looking forward to exploring all the different things I can do with it.",
-		"timestamp": "12:06 PM"
-	},
-	{
-		"type": "received",
-		"sender": {
-			"name": "Melissa Green",
-			"image": "https://randomuser.me/api/portraits/women/73.jpg",
-			"nickname": "melove"
-		},
-		"message": "That's great! Just remember to keep practicing and you'll be a pro in no time.",
-		"timestamp": "12:07 PM"
-	},
-	{
-		"type": "received",
-		"sender": {
-			"name": "Ashley Davis",
-			"image": "https://randomuser.me/api/portraits/women/25.jpg",
-			"nickname": "ash_456"
-		},
-		"message": "Definitely. Practice makes perfect when it comes to programming. The more you do it, the better you'll get.",
-		"timestamp": "12:08 PM"
-	},
-	{
-		"type": "received",
-		"sender": {
-			"name": "Michael Wilson",
-			"image": "https://randomuser.me/api/portraits/men/35.jpg",
-			"nickname": "mwilson_789"
-		},
-		"message": "And don't be afraid to ask for help if you need it. There are plenty of online forums and communities where you can find answers to your questions.",
-		"timestamp": "12:09 PM"
-	},
-	{
-		"type": "sent",
-		"sender": {
-			"name": "James Thompson",
-			"image": "https://randomuser.me/api/portraits/men/15.jpg",
-			"nickname": "jimmy123"
-		},
-		"message": "Thanks for the advice! I'll definitely keep that in mind.",
-		"timestamp": "12:10 PM"
-	},
-	{
-		"type": "received",
-		"sender": {
-			"name": "Melissa Green",
-			"image": "https://randomuser.me/api/portraits/women/73.jpg",
-			"nickname": "melove"
-		},
-		"message": "No problem, happy to help. Good luck with your programming journey!",
-		"timestamp": "12:11 PM"
-	},
-	{
-		"type": "received",
-		"sender": {
-			"name": "Ashley Davis",
-			"image": "https://randomuser.me/api/portraits/women/25.jpg",
-			"nickname": "ash_456"
-		},
-		"message": "Yeah, good luck! We're all rooting for you.",
-		"timestamp": "12:12 PM"
-	},
-	{
-		"type": "received",
-		"sender": {
-			"name": "Michael Wilson",
-			"image": "https://randomuser.me/api/portraits/men/35.jpg",
-			"nickname": "mwilson_789"
-		},
-		"message": "Yeah, good luck! Let us know if you have any questions or need any help along the way.",
-		"timestamp": "12:13 PM"
-	}
+  {
+    "type": "sent",
+    "sender": {
+      "name": "James Thompson",
+      "image": "https://randomuser.me/api/portraits/men/15.jpg",
+      "nickname": "jimmy123"
+    },
+    "message": "Hey everyone, I just started learning how to program and I'm really excited about it!",
+    "timestamp": "12:01 PM"
+  },
+  {
+    "type": "received",
+    "sender": {
+      "name": "Melissa Green",
+      "image": "https://randomuser.me/api/portraits/women/73.jpg",
+      "nickname": "melove"
+    },
+    "message": "That's great! What language are you learning?",
+    "timestamp": "12:03 PM"
+  },
+  {
+    "type": "sent",
+    "sender": {
+      "name": "James Thompson",
+      "image": "https://randomuser.me/api/portraits/men/15.jpg",
+      "nickname": "jimmy123"
+    },
+    "message": "I'm learning Python right now. It's been a lot of fun so far.",
+    "timestamp": "12:03 PM"
+  },
+  {
+    "type": "received",
+    "sender": {
+      "name": "Ashley Davis",
+      "image": "https://randomuser.me/api/portraits/women/25.jpg",
+      "nickname": "ash_456"
+    },
+    "message": "I love Python too! It's a really versatile language and there are so many things you can do with it.",
+    "timestamp": "12:04 PM"
+  },
+  {
+    "type": "received",
+    "sender": {
+      "name": "Michael Wilson",
+      "image": "https://randomuser.me/api/portraits/men/35.jpg",
+      "nickname": "mwilson_789"
+    },
+    "message": "Yeah, I agree. I've been using Python for a while now and it's definitely one of my favorite languages.",
+    "timestamp": "12:05 PM"
+  },
+  {
+    "type": "sent",
+    "sender": {
+      "name": "James Thompson",
+      "image": "https://randomuser.me/api/portraits/men/15.jpg",
+      "nickname": "jimmy123"
+    },
+    "message": "I'm still a beginner, so I'm focusing on the basics right now. But I'm looking forward to exploring all the different things I can do with it.",
+    "timestamp": "12:06 PM"
+  },
+  {
+    "type": "received",
+    "sender": {
+      "name": "Melissa Green",
+      "image": "https://randomuser.me/api/portraits/women/73.jpg",
+      "nickname": "melove"
+    },
+    "message": "That's great! Just remember to keep practicing and you'll be a pro in no time.",
+    "timestamp": "12:07 PM"
+  },
+  {
+    "type": "received",
+    "sender": {
+      "name": "Ashley Davis",
+      "image": "https://randomuser.me/api/portraits/women/25.jpg",
+      "nickname": "ash_456"
+    },
+    "message": "Definitely. Practice makes perfect when it comes to programming. The more you do it, the better you'll get.",
+    "timestamp": "12:08 PM"
+  },
+  {
+    "type": "received",
+    "sender": {
+      "name": "Michael Wilson",
+      "image": "https://randomuser.me/api/portraits/men/35.jpg",
+      "nickname": "mwilson_789"
+    },
+    "message": "And don't be afraid to ask for help if you need it. There are plenty of online forums and communities where you can find answers to your questions.",
+    "timestamp": "12:09 PM"
+  },
+  {
+    "type": "sent",
+    "sender": {
+      "name": "James Thompson",
+      "image": "https://randomuser.me/api/portraits/men/15.jpg",
+      "nickname": "jimmy123"
+    },
+    "message": "Thanks for the advice! I'll definitely keep that in mind.",
+    "timestamp": "12:10 PM"
+  },
+  {
+    "type": "received",
+    "sender": {
+      "name": "Melissa Green",
+      "image": "https://randomuser.me/api/portraits/women/73.jpg",
+      "nickname": "melove"
+    },
+    "message": "No problem, happy to help. Good luck with your programming journey!",
+    "timestamp": "12:11 PM"
+  },
+  {
+    "type": "received",
+    "sender": {
+      "name": "Ashley Davis",
+      "image": "https://randomuser.me/api/portraits/women/25.jpg",
+      "nickname": "ash_456"
+    },
+    "message": "Yeah, good luck! We're all rooting for you.",
+    "timestamp": "12:12 PM"
+  },
+  {
+    "type": "received",
+    "sender": {
+      "name": "Michael Wilson",
+      "image": "https://randomuser.me/api/portraits/men/35.jpg",
+      "nickname": "mwilson_789"
+    },
+    "message": "Yeah, good luck! Let us know if you have any questions or need any help along the way.",
+    "timestamp": "12:13 PM"
+  }
 ]

@@ -1,5 +1,5 @@
 <Alloy>
-	<Window title="Venues">
-		<Label text="Venues - Comming Soon!" />
-	</Window>
+  <Window title="Venues">
+    <Label text="Venues - Comming Soon!" />
+  </Window>
 </Alloy>

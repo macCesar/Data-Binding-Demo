@@ -1,30 +1,30 @@
 <Alloy>
-	<Window title="Chats" onOpen="doOpen">
-		<ListView id="chatsView" class="bg-white wh-screen separator-transparent" onItemclick="doClick">
-			<Templates>
-				<!-- contacts -->
-				<ItemTemplate name="chats">
-					<View class="w-screen h-auto mx-3 my-1.5">
-						<View class="ml-0 wh-12">
-							<ImageView bindId="avatar" class="mt-0 ml-0 wh-12 bg-gray-50 rounded-tl-br-5 prevent-default-image touch-enabled-false" />
-							<View bindId="group" class="w-6 mb-0 ml-0 h-3.5 bg-violet-500 rounded-tr-5">
-								<Label bindId="members" class="text-(10) font-bold text-center text-white wh-screen" />
-							</View>
-						</View>
+  <Window title="Chats" onOpen="doOpen">
+    <ListView id="chatsView" class="bg-white wh-screen separator-transparent" onItemclick="doClick">
+      <Templates>
+        <!-- contacts -->
+        <ItemTemplate name="chats">
+          <View class="w-screen h-auto mx-3 my-1.5">
+            <View class="ml-0 wh-12">
+              <ImageView bindId="avatar" class="mt-0 ml-0 wh-12 bg-gray-50 rounded-tl-br-5 prevent-default-image touch-enabled-false" />
+              <View bindId="group" class="w-6 mb-0 ml-0 h-3.5 bg-violet-500 rounded-tr-5">
+                <Label bindId="members" class="text-(10) font-bold text-center text-white wh-screen" />
+              </View>
+            </View>
 
-						<View class="w-screen h-auto ml-14 vertical touch-enabled-false">
-							<Label bindId="name" class="ml-0 mr-16 text-base font-bold text-gray-700 wh-auto touch-enabled-false" />
-							<Label bindId="message" class="w-auto h-5 ml-0 text-sm text-gray-500 touch-enabled-false" />
-						</View>
+            <View class="w-screen h-auto ml-14 vertical touch-enabled-false">
+              <Label bindId="name" class="ml-0 mr-16 text-base font-bold text-gray-700 wh-auto touch-enabled-false" />
+              <Label bindId="message" class="w-auto h-5 ml-0 text-sm text-gray-500 touch-enabled-false" />
+            </View>
 
-						<Label bindId="datetime" class="mr-0 text-xs text-gray-400 mt-1.5 wh-auto touch-enabled-false" />
-					</View>
-				</ItemTemplate>
-			</Templates>
+            <Label bindId="datetime" class="mr-0 text-xs text-gray-400 mt-1.5 wh-auto touch-enabled-false" />
+          </View>
+        </ItemTemplate>
+      </Templates>
 
-			<ListSection id="seccion" dataCollection="chats" dataTransform="transformChats">
-				<ListItem template="chats" class="bg-transparent bg-selected-violet-100" member:image="{member}" members:text="{members}" datetime:text="{time}" name:text="{name}" avatar:image="{image}" group:visible="{group}" message:text="{message}" />
-			</ListSection>
-		</ListView>
-	</Window>
+      <ListSection id="seccion" dataCollection="chats" dataTransform="transformChats">
+        <ListItem template="chats" class="bg-transparent bg-selected-violet-100" member:image="{member}" members:text="{members}" datetime:text="{time}" name:text="{name}" avatar:image="{image}" group:visible="{group}" message:text="{message}" />
+      </ListSection>
+    </ListView>
+  </Window>
 </Alloy>

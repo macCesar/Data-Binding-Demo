@@ -1,23 +1,23 @@
 <Alloy module="tikit.ui">
-	<TabGroup id="mainTabGroup" class="style-tabs-bottom-navigation title-gray-400 tint-gray-400 active-title-gray-600 active-tint-gray-600 swipeable-false shift-mode-icon theme-titanium-light-solid shift-mode-none">
-		<Tab title="Chats" icon="ri ri-chat-smile-2-line bg-transparent" activeIcon="ri ri-chat-smile-2-fill bg-transparent">
-			<Require src="tabs/chat/chats"/>
-		</Tab>
+  <TabGroup id="mainTabGroup" class="style-tabs-bottom-navigation title-gray-400 tint-gray-400 active-title-gray-600 active-tint-gray-600 swipeable-false shift-mode-icon theme-titanium-light-solid shift-mode-none">
+    <Tab title="Chats" icon="ri ri-chat-smile-2-line bg-transparent" activeIcon="ri ri-chat-smile-2-fill bg-transparent">
+      <Require src="tabs/chat/chats"/>
+    </Tab>
 
-		<Tab title="Contacts" icon="ri ri-contacts-line bg-transparent" activeIcon="ri ri-contacts-fill bg-transparent">
-			<Require src="tabs/contacts/index"/>
-		</Tab>
+    <Tab title="Contacts" icon="ri ri-contacts-line bg-transparent" activeIcon="ri ri-contacts-fill bg-transparent">
+      <Require src="tabs/contacts/index"/>
+    </Tab>
 
-		<Tab title="Rentals" icon="ri ri-home-heart-line" activeIcon="ri ri-home-heart-fill">
-			<Require src="tabs/rentals/index"/>
-		</Tab>
+    <Tab title="Rentals" icon="ri ri-home-heart-line" activeIcon="ri ri-home-heart-fill">
+      <Require src="tabs/rentals/index"/>
+    </Tab>
 
-		<Tab title="Transactions" icon="ri ri-exchange-dollar-line" activeIcon="ri ri-exchange-dollar-fill">
-			<Require src="tabs/transactions/index"/>
-		</Tab>
+    <Tab title="Transactions" icon="ri ri-exchange-dollar-line" activeIcon="ri ri-exchange-dollar-fill">
+      <Require src="tabs/transactions/index"/>
+    </Tab>
 
-		<Tab title="Venues" icon="ri ri-hotel-line" activeIcon="ri ri-hotel-fill">
-			<Require src="tabs/venues/index"/>
-		</Tab>
-	</TabGroup>
+    <Tab title="Venues" icon="ri ri-hotel-line" activeIcon="ri ri-hotel-fill">
+      <Require src="tabs/venues/index"/>
+    </Tab>
+  </TabGroup>
 </Alloy>
