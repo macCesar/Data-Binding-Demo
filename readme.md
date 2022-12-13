@@ -10,7 +10,7 @@ First, make sure you have **PurgeTSS** installed globally on your machine:
 Then, download the App and run it on your device, or simulator.
 
 ## Content
-The first release of this demo includes a Chats Demo with two views: one that shows a list of recent chats and another that provides a detailed view of a selected chat.
+The first release of this App includes a Chats Demo with two views: one that shows a list of recent chats and another that provides a detailed view of a selected chat.
 
 This app will contain the following demos:
 - Chats ✅
