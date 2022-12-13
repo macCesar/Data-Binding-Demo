@@ -1,0 +1,82 @@
+[
+  {
+    "price": 2500,
+    "location": "Queens",
+    "state": "New York",
+    "rooms": 2,
+    "bathrooms": 1,
+    "garage": true,
+    "kitchen": true,
+    "description": "This 2 bedroom apartment in Queens is conveniently located and includes a garage and a fully-equipped kitchen. Perfect for a small family or couple."
+  },
+  {
+    "price": 2000,
+    "location": "Bronx",
+    "state": "New York",
+    "rooms": 1,
+    "bathrooms": 1,
+    "garage": false,
+    "kitchen": true,
+    "description": "Cozy 1 bedroom apartment in the Bronx with a fully-equipped kitchen. Great for a single person or couple."
+  },
+  {
+    "price": 2800,
+    "location": "Brooklyn",
+    "state": "New York",
+    "rooms": 3,
+    "bathrooms": 2,
+    "garage": true,
+    "kitchen": true,
+    "description": "Spacious 3 bedroom apartment in Brooklyn with 2 bathrooms and a garage. The kitchen is fully-equipped and ready for you to move in."
+  },
+  {
+    "price": 2200,
+    "location": "Queens",
+    "state": "New York",
+    "rooms": 2,
+    "bathrooms": 1,
+    "garage": false,
+    "kitchen": false,
+    "description": "Affordable 2 bedroom apartment in Queens with 1 bathroom. The kitchen is fully-equipped, the apartment is in a great location."
+  },
+  {
+    "price": 3500,
+    "location": "Staten Island",
+    "state": "New York",
+    "rooms": 4,
+    "bathrooms": 3,
+    "garage": true,
+    "kitchen": true,
+    "description": "This 4 bedroom apartment in Staten Island is perfect for a large family. It has 3 bathrooms, a garage, and a fully-equipped kitchen."
+  },
+  {
+    "price": 3000,
+    "location": "Manhattan",
+    "state": "New York",
+    "rooms": 2,
+    "bathrooms": 2,
+    "garage": false,
+    "kitchen": true,
+    "description": "Beautiful 2 bedroom apartment in Manhattan with 2 bathrooms. The kitchen is fully-equipped and ready for you to move in. Perfect for a couple or small family."
+  },
+  {
+    "price": 2500,
+    "location": "Queens",
+    "state": "New York",
+    "rooms": 1,
+    "bathrooms": 1,
+    "garage": false,
+    "kitchen": false,
+    "description": "Affordable 1 bedroom apartment in Queens with 1 bathroom. The kitchen is not equipped, but the apartment is in a great location."
+  },
+  {
+    "price": 2400,
+    "location": "Bronx",
+    "state": "New York",
+    "rooms": 2,
+    "bathrooms": 2,
+    "garage": true,
+    "kitchen": true,
+    "description": "This 2 bedroom apartment in the Bronx has 2 bathrooms and a garage. The kitchen is fully-equipped and ready for you to move in."
+  }
+]

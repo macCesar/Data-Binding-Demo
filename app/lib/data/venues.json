@@ -1,0 +1,202 @@
+[
+  {
+    "address": "123 Main St",
+    "city": "New York",
+    "state": "NY",
+    "latitude": 40.7127753,
+    "longitude": -74.0059728,
+    "name": "Dummy Hotel 1",
+    "rating": 4,
+    "price": 149.99
+  },
+  {
+    "address": "456 Park Ave",
+    "city": "New York",
+    "state": "NY",
+    "latitude": 40.764735,
+    "longitude": -73.957191,
+    "name": "Dummy Hotel 2",
+    "rating": 5,
+    "price": 199.99
+  },
+  {
+    "address": "789 Broadway",
+    "city": "New York",
+    "state": "NY",
+    "latitude": 40.741061,
+    "longitude": -73.989699,
+    "name": "Dummy Hotel 3",
+    "rating": 3,
+    "price": 99.99
+  },
+  {
+    "address": "321 First Ave",
+    "city": "Los Angeles",
+    "state": "CA",
+    "latitude": 34.052235,
+    "longitude": -118.243683,
+    "name": "Dummy Hotel 4",
+    "rating": 4,
+    "price": 149.99
+  },
+  {
+    "address": "654 Hollywood Blvd",
+    "city": "Los Angeles",
+    "state": "CA",
+    "latitude": 34.101234,
+    "longitude": -118.331249,
+    "name": "Dummy Hotel 5",
+    "rating": 5,
+    "price": 199.99
+  },
+  {
+    "address": "987 Sunset Blvd",
+    "city": "Los Angeles",
+    "state": "CA",
+    "latitude": 34.092809,
+    "longitude": -118.328661,
+    "name": "Dummy Hotel 6",
+    "rating": 3,
+    "price": 99.99
+  },
+  {
+    "address": "159 Las Vegas Blvd",
+    "city": "Las Vegas",
+    "state": "NV",
+    "latitude": 36.169941,
+    "longitude": -115.139830,
+    "name": "Dummy Hotel 7",
+    "rating": 4,
+    "price": 149.99
+  },
+  {
+    "address": "753 The Strip",
+    "city": "Las Vegas",
+    "state": "NV",
+    "latitude": 36.112347,
+    "longitude": -115.172813,
+    "name": "Dummy Hotel 8",
+    "rating": 5,
+    "price": 199.99
+  },
+  {
+    "address": "951 Fremont St",
+    "city": "Las Vegas",
+    "state": "NV",
+    "latitude": 36.174970,
+    "longitude": -115.137183,
+    "name": "Dummy Hotel 9",
+    "rating": 3,
+    "price": 99.99
+  },
+  {
+    "address": "147 Ocean Dr",
+    "city": "Miami",
+    "state": "FL",
+    "latitude": 25.790654,
+    "longitude": -80.130045,
+    "name": "Dummy Hotel 10",
+    "rating": 4,
+    "price": 149.99
+  },
+  {
+    "address": "369 South Beach",
+    "city": "Miami",
+    "state": "FL",
+    "latitude": 25.788969,
+    "longitude": -80.226439,
+    "name": "Dummy Hotel 11",
+    "rating": 5,
+    "price": 199.99
+  },
+  {
+    "address": "159 Little Havana",
+    "city": "Miami",
+    "state": "FL",
+    "latitude": 25.744202,
+    "longitude": -80.244715,
+    "name": "Dummy Hotel 12",
+    "rating": 3,
+    "price": 99.99
+  },
+  {
+    "address": "753 North Ave",
+    "city": "Chicago",
+    "state": "IL",
+    "latitude": 41.902782,
+    "longitude": -87.627799,
+    "name": "Dummy Hotel 13",
+    "rating": 4,
+    "price": 149.99
+  },
+  {
+    "address": "951 Michigan Ave",
+    "city": "Chicago",
+    "state": "IL",
+    "latitude": 41.897429,
+    "longitude": -87.624333,
+    "name": "Dummy Hotel 14",
+    "rating": 5,
+    "price": 199.99
+  },
+  {
+    "address": "147 Willis Tower",
+    "city": "Chicago",
+    "state": "IL",
+    "latitude": 41.878876,
+    "longitude": -87.635915,
+    "name": "Dummy Hotel 15",
+    "rating": 3,
+    "price": 99.99
+  },
+  {
+    "address": "369 Riverwalk",
+    "city": "Chicago",
+    "state": "IL",
+    "latitude": 41.883718,
+    "longitude": -87.637184,
+    "name": "Dummy Hotel 16",
+    "rating": 4,
+    "price": 149.99
+  },
+  {
+    "address": "159 Lake Shore Dr",
+    "city": "Chicago",
+    "state": "IL",
+    "latitude": 41.913600,
+    "longitude": -87.618937,
+    "name": "Dummy Hotel 17",
+    "rating": 5,
+    "price": 199.99
+  },
+  {
+    "address": "753 Wacker Dr",
+    "city": "Chicago",
+    "state": "IL",
+    "latitude": 41.886468,
+    "longitude": -87.635917,
+    "name": "Dummy Hotel 18",
+    "rating": 3,
+    "price": 99.99
+  },
+  {
+    "address": "951 State St",
+    "city": "Chicago",
+    "state": "IL",
+    "latitude": 41.890456,
+    "longitude": -87.628834,
+    "name": "Dummy Hotel 19",
+    "rating": 4,
+    "price": 149.99
+  },
+  {
+    "address": "147 Millennium Park",
+    "city": "Chicago",
+    "state": "IL",
+    "latitude": 41.882443,
+    "longitude": -87.623407,
+    "name": "Dummy Hotel 20",
+    "rating": 5,
+    "price": 199.99
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "type": "sent",
+    "sender": {
+      "name": "Ashley Taylor",
+      "image": "https://randomuser.me/api/portraits/women/54.jpg",
+      "nickname": "ashley123"
+    },
+    "message": "Hi, how are you?",
+    "timestamp": "2022-12-10T12:00:00Z"
+  },
+  {
+    "type": "received",
+    "sender": {
+      "name": "Melissa Green",
+      "image": "https://randomuser.me/api/portraits/women/73.jpg",
+      "nickname": "melove"
+    },
+    "message": "I'm good, thanks for asking. How about you?",
+    "timestamp": "2022-12-10T12:01:00Z"
+  },
+  {
+    "type": "sent",
+    "sender": {
+      "name": "Ashley Taylor",
+      "image": "https://randomuser.me/api/portraits/women/54.jpg",
+      "nickname": "ashley123"
+    },
+    "message": "I'm doing well too. What have you been up to?",
+    "timestamp": "2022-12-10T12:02:00Z"
+  },
+  {
+    "type": "received",
+    "sender": {
+      "name": "Melissa Green",
+      "image": "https://randomuser.me/api/portraits/women/73.jpg",
+      "nickname": "melove"
+    },
+    "message": "Not much, just been busy with work and other things. How about you?",
+    "timestamp": "2022-12-10T12:03:00Z"
+  },
+  {
+    "type": "sent",
+    "sender": {
+      "name": "Ashley Taylor",
+      "image": "https://randomuser.me/api/portraits/women/54.jpg",
+      "nickname": "ashley123"
+    },
+    "message": "Same here, work has been keeping me busy. But it's been good overall.",
+    "timestamp": "2022-12-10T12:04:00Z"
+  },
+  {
+    "type": "received",
+    "sender": {
+      "name": "Melissa Green",
+      "image": "https://randomuser.me/api/portraits/women/73.jpg",
+      "nickname": "melove"
+    },
+    "message": "That's good to hear. I've been trying to stay busy with hobbies and other activities.",
+    "timestamp": "2022-12-10T12:05:00Z"
+  },
+  {
+    "type": "sent",
+    "sender": {
+      "name": "Ashley Taylor",
+      "image": "https://randomuser.me/api/portraits/women/54.jpg",
+      "nickname": "ashley123"
+    },
+    "message": "That's great! I've been trying to do the same. What have you been working on?",
+    "timestamp": "2022-12-10T12:06:00Z"
+  },
+  {
+    "type": "received",
+    "sender": {
+      "name": "Melissa Green",
+      "image": "https://randomuser.me/api/portraits/women/73.jpg",
+      "nickname": "melove"
+    },
+    "message": "I've been working on some crafts and DIY projects. It's been a nice way to relax and stay creative.",
+    "timestamp": "2022-12-10T12:07:00Z"
+  },
+  {
+    "type": "sent",
+    "sender": {
+      "name": "Ashley Taylor",
+      "image": "https://randomuser.me/api/portraits/women/54.jpg",
+      "nickname": "ashley123"
+    },
+    "message": "That sounds really fun! I've been doing some reading and working out to stay active.",
+    "timestamp": "2022-12-10T12:08:00Z"
+  },
+  {
+    "type": "received",
+    "sender": {
+      "name": "Melissa Green",
+      "image": "https://randomuser.me/api/portraits/women/73.jpg",
+      "nickname": "melove"
+    },
+    "message": "Those are great activities! It's important to stay active and healthy, both physically and mentally.",
+    "timestamp": "2022-12-10T12:09:00Z"
+  },
+  {
+    "type": "sent",
+    "sender": {
+      "name": "Ashley Taylor",
+      "image": "https://randomuser.me/api/portraits/women/54.jpg",
+      "nickname": "ashley123"
+    },
+    "message": "Yes, it's definitely important to take care of ourselves and stay healthy. Thanks for the reminder!",
+    "timestamp": "2022-12-10T12:10:00Z"
+  },
+  {
+    "type": "received",
+    "sender": {
+      "name": "Melissa Green",
+      "image": "https://randomuser.me/api/portraits/women/73.jpg",
+      "nickname": "melove"
+    },
+    "message": "You're welcome! It's always good to have a reminder to take care of ourselves and make sure we're doing okay.",
+    "timestamp": "2022-12-10T12:11:00Z"
+  },
+  {
+    "type": "sent",
+    "sender": {
+      "name": "Ashley Taylor",
+      "image": "https://randomuser.me/api/portraits/women/54.jpg",
+      "nickname": "ashley123"
+    },
+    "message": "Absolutely! It's been great chatting with you. Take care and have a good day!",
+    "timestamp": "2022-12-10T12:12:00Z"
+  },
+  {
+    "type": "received",
+    "sender": {
+      "name": "Melissa Green",
+      "image": "https://randomuser.me/api/portraits/women/73.jpg",
+      "nickname": "melove"
+    },
+    "message": "You too! It was nice talking to you. Have a great day!",
+    "timestamp": "2022-12-10T12:13:00Z"
+  }
+]

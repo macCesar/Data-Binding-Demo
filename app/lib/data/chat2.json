@@ -1,0 +1,302 @@
+[
+	{
+		"type": "sent",
+		"sender": {
+			"name": "Eddie Griffin",
+			"image": "https://randomuser.me/api/portraits/men/20.jpg",
+			"nickname": "eddie123"
+		},
+		"message": "Hey everyone, how's it going?",
+		"timestamp": "12:00 PM"
+	},
+	{
+		"type": "received",
+		"sender": {
+			"name": "Debbie Moreno",
+			"image": "https://randomuser.me/api/portraits/women/55.jpg",
+			"nickname": "debbie456"
+		},
+		"message": "Not bad, just trying to stay cool in this heat.",
+		"timestamp": "12:01 PM"
+	},
+	{
+		"type": "received",
+		"sender": {
+			"name": "Samuel Gutierrez",
+			"image": "https://randomuser.me/api/portraits/men/62.jpg",
+			"nickname": "samuel789"
+		},
+		"message": "Same here. I swear, this summer is never-ending.",
+		"timestamp": "12:01 PM"
+	},
+	{
+		"type": "sent",
+		"sender": {
+			"name": "Eddie Griffin",
+			"image": "https://randomuser.me/api/portraits/men/20.jpg",
+			"nickname": "eddie123"
+		},
+		"message": "Tell me about it. I'm already sick of the heat and it's only June.",
+		"timestamp": "12:02 PM"
+	},
+	{
+		"type": "received",
+		"sender": {
+			"name": "Debbie Moreno",
+			"image": "https://randomuser.me/api/portraits/women/55.jpg",
+			"nickname": "debbie456"
+		},
+		"message": "Yeah, I'm ready for some cooler weather. How about you, Samuel?",
+		"timestamp": "12:03 PM"
+	},
+	{
+		"type": "received",
+		"sender": {
+			"name": "Samuel Gutierrez",
+			"image": "https://randomuser.me/api/portraits/men/62.jpg",
+			"nickname": "samuel789"
+		},
+		"message": "Definitely. I'm so over the heat. Bring on the fall.",
+		"timestamp": "12:04 PM"
+	},
+	{
+		"type": "sent",
+		"sender": {
+			"name": "Eddie Griffin",
+			"image": "https://randomuser.me/api/portraits/men/20.jpg",
+			"nickname": "eddie123"
+		},
+		"message": "Agreed. Let's just hope the cooler weather comes sooner rather than later.",
+		"timestamp": "12:05 PM"
+	},
+	{
+		"type": "received",
+		"sender": {
+			"name": "Debbie Moreno",
+			"image": "https://randomuser.me/api/portraits/women/55.jpg",
+			"nickname": "debbie456"
+		},
+		"message": "Definitely. Here's to hoping for a quick end to this heatwave.",
+		"timestamp": "12:06 PM"
+	},
+	{
+		"type": "received",
+		"sender": {
+			"name": "Samuel Gutierrez",
+			"image": "https://randomuser.me/api/portraits/men/62.jpg",
+			"nickname": "samuel789"
+		},
+		"message": "Cheers to that. Let's all cross our fingers for some relief from the heat.",
+		"timestamp": "12:07 PM"
+	},
+	{
+		"type": "sent",
+		"sender": {
+			"name": "Eddie Griffin",
+			"image": "https://randomuser.me/api/portraits/men/20.jpg",
+			"nickname": "eddie123"
+		},
+		"message": "So, what have you guys been up to lately?",
+		"timestamp": "12:08 PM"
+	},
+	{
+		"type": "received",
+		"sender": {
+			"name": "Debbie Moreno",
+			"image": "https://randomuser.me/api/portraits/women/55.jpg",
+			"nickname": "debbie456"
+		},
+		"message": "Not much, just working and trying to stay out of the heat. How about you, Eddie?",
+		"timestamp": "12:09 PM"
+	},
+	{
+		"type": "sent",
+		"sender": {
+			"name": "Eddie Griffin",
+			"image": "https://randomuser.me/api/portraits/men/20.jpg",
+			"nickname": "eddie123"
+		},
+		"message": "Same here. I've been trying to keep busy with work and some side projects.",
+		"timestamp": "12:10 PM"
+	},
+	{
+		"type": "received",
+		"sender": {
+			"name": "Samuel Gutierrez",
+			"image": "https://randomuser.me/api/portraits/men/62.jpg",
+			"nickname": "samuel789"
+		},
+		"message": "I've been trying to stay active and get outside, but it's tough when it's so hot.",
+		"timestamp": "12:11 PM"
+	},
+	{
+		"type": "sent",
+		"sender": {
+			"name": "Eddie Griffin",
+			"image": "https://randomuser.me/api/portraits/men/20.jpg",
+			"nickname": "eddie123"
+		},
+		"message": "Definitely. I've been sticking to early morning or late evening workouts to avoid the heat.",
+		"timestamp": "12:12 PM"
+	},
+	{
+		"type": "received",
+		"sender": {
+			"name": "Debbie Moreno",
+			"image": "https://randomuser.me/api/portraits/women/55.jpg",
+			"nickname": "debbie456"
+		},
+		"message": "That's a good idea. I need to start doing that too.",
+		"timestamp": "12:13 PM"
+	},
+	{
+		"type": "received",
+		"sender": {
+			"name": "Samuel Gutierrez",
+			"image": "https://randomuser.me/api/portraits/men/62.jpg",
+			"nickname": "samuel789"
+		},
+		"message": "Yeah, it's all about finding ways to stay cool and comfortable in this heat.",
+		"timestamp": "12:14 PM"
+	},
+	{
+		"type": "sent",
+		"sender": {
+			"name": "Eddie Griffin",
+			"image": "https://randomuser.me/api/portraits/men/20.jpg",
+			"nickname": "eddie123"
+		},
+		"message": "Absolutely. Here's to surviving the rest of this heatwave.",
+		"timestamp": "12:15 PM"
+	},
+	{
+		"type": "received",
+		"sender": {
+			"name": "Debbie Moreno",
+			"image": "https://randomuser.me/api/portraits/women/55.jpg",
+			"nickname": "debbie456"
+		},
+		"message": "Cheers to that!",
+		"timestamp": "12:16 PM"
+	},
+	{
+		"type": "sent",
+		"sender": {
+			"name": "Eddie Griffin",
+			"image": "https://randomuser.me/api/portraits/men/20.jpg",
+			"nickname": "eddie123"
+		},
+		"message": "So, has anyone done anything fun or interesting recently?",
+		"timestamp": "12:17 PM"
+	},
+	{
+		"type": "received",
+		"sender": {
+			"name": "Debbie Moreno",
+			"image": "https://randomuser.me/api/portraits/women/55.jpg",
+			"nickname": "debbie456"
+		},
+		"message": "Not really, just the usual stuff. How about you, Eddie?",
+		"timestamp": "12:18 PM"
+	},
+	{
+		"type": "sent",
+		"sender": {
+			"name": "Eddie Griffin",
+			"image": "https://randomuser.me/api/portraits/men/20.jpg",
+			"nickname": "eddie123"
+		},
+		"message": "Same here. It's been a pretty quiet and uneventful few weeks for me.",
+		"timestamp": "12:19 PM"
+	},
+	{
+		"type": "received",
+		"sender": {
+			"name": "Samuel Gutierrez",
+			"image": "https://randomuser.me/api/portraits/men/62.jpg",
+			"nickname": "samuel789"
+		},
+		"message": "I actually went on a road trip last weekend. It was a lot of fun.",
+		"timestamp": "12:20 PM"
+	},
+	{
+		"type": "sent",
+		"sender": {
+			"name": "Eddie Griffin",
+			"image": "https://randomuser.me/api/portraits/men/20.jpg",
+			"nickname": "eddie123"
+		},
+		"message": "That sounds great! Where did you go?",
+		"timestamp": "12:21 PM"
+	},
+	{
+		"type": "received",
+		"sender": {
+			"name": "Samuel Gutierrez",
+			"image": "https://randomuser.me/api/portraits/men/62.jpg",
+			"nickname": "samuel789"
+		},
+		"message": "I went up north to visit some friends and do some hiking. It was a much needed break from the heat.",
+		"timestamp": "12:22 PM"
+	},
+	{
+		"type": "received",
+		"sender": {
+			"name": "Debbie Moreno",
+			"image": "https://randomuser.me/api/portraits/women/55.jpg",
+			"nickname": "debbie456"
+		},
+		"message": "That sounds like a lot of fun. I love road trips.",
+		"timestamp": "12:23 PM"
+	},
+	{
+		"type": "sent",
+		"sender": {
+			"name": "Eddie Griffin",
+			"image": "https://randomuser.me/api/portraits/men/20.jpg",
+			"nickname": "eddie123"
+		},
+		"message": "Yeah, me too. I haven't gone on one in a while. I might have to plan one soon.",
+		"timestamp": "12:24 PM"
+	},
+	{
+		"type": "received",
+		"sender": {
+			"name": "Samuel Gutierrez",
+			"image": "https://randomuser.me/api/portraits/men/62.jpg",
+			"nickname": "samuel789"
+		},
+		"message": "Definitely. Road trips are always a good time.",
+		"timestamp": "12:25 PM"
+	},
+	{
+		"type": "sent",
+		"sender": {
+			"name": "Eddie Griffin",
+			"image": "https://randomuser.me/api/portraits/men/20.jpg",
+			"nickname": "eddie123"
+		},
+		"message": "Well, it was nice chatting with you guys. I'm going to head out now, but let's catch up again soon.",
+		"timestamp": "12:26 PM"
+	},
+	{
+		"type": "received",
+		"sender": {
+			"name": "Debbie Moreno",
+			"image": "https://randomuser.me/api/portraits/women/55.jpg",
+			"nickname": "debbie456"
+		},
+		"message": "Sounds good to me. Have a great day, Eddie.",
+		"timestamp": "12:27 PM"
+	},
+	{
+		"type": "received",
+		"sender": {
+			"name": "Samuel Gutierrez",
+			"image": "https://randomuser.me/api/portraits/men/62.jpg",
+			"nickname": "samuel789"
+		},
+		"message": "Yeah, take care. Talk to you later.",
+		"timestamp": "12:28 PM"
+	}
+]

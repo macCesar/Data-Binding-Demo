@@ -1,0 +1,52 @@
+<Alloy>
+	<Window title="Chat" onOpen="doOpen" onClose="doClose">
+		<ActionBar platform="android" class="display-home-as-up" onHomeIconItemSelected="closeWindow" />
+
+		<ListView id="chatView" class="bg-white mb-14 keyboard-dismiss-mode-on-drag wh-screen separator-transparent scrolls-to-top-false">
+			<Templates>
+				<!-- sent -->
+				<ItemTemplate name="sent">
+					<View class="w-2/3 h-auto mr-0 my-1.5">
+						<Label class="text-2xl text-violet-500 mb-(7.5) mr-1.5 ri ri-arrow-right-fill" />
+
+						<View class="mr-4 bg-violet-500 wh-auto rounded-4">
+							<Label bindId="message" class="mx-3 android:text-base ios:text-sm android:mt-2 android:mb-2.5 ios:my-2.5 wh-auto text-violet-50" />
+						</View>
+					</View>
+				</ItemTemplate>
+
+				<!-- received -->
+				<ItemTemplate name="received">
+					<View class="w-2/3 h-auto ml-3 my-1.5">
+						<ImageView bindId="avatar" class="mb-0 ml-0 bg-violet-100 prevent-default-image wh-10 rounded-tl-br-4" />
+
+						<Label class="text-2xl text-violet-100 mb-(7.5) ml-(38) ri ri-arrow-left-fill" />
+
+						<View class="ml-12 wh-auto vertical">
+							<View class="ml-1 horizontal wh-auto">
+								<Label bindId="name" class="ml-0 text-xs text-gray-600 wh-auto" />
+								<Label bindId="nickname" class="ml-0.5 text-(10) text-gray-500 wh-auto" />
+							</View>
+
+							<View class="ml-0 mt-0.5 bg-violet-100 wh-auto rounded-4">
+								<Label bindId="message" class="mx-3 text-gray-900 android:text-base ios:text-sm android:mt-2 android:mb-2.5 ios:my-2.5 wh-auto" />
+							</View>
+						</View>
+					</View>
+				</ItemTemplate>
+			</Templates>
+
+			<ListSection id="seccion" dataCollection="chat">
+				<ListItem class="bg-transparent bg-selected-transparent" template="{type}" nickname:text="- @{sender.nickname}" avatar:image="{sender.image}" name:text="{sender.name}" message:text="{message}" />
+			</ListSection>
+		</ListView>
+
+		<View id="messageBar" class="w-screen h-auto mb-0 bg-gray-200">
+			<Button class="ml-0 text-xl text-center text-gray-700 bg-transparent border-0 border-transparent wh-10 ri ri-add-line" />
+
+			<TextArea id="message" class="w-screen h-auto mx-10 my-2 text-base text-gray-800 bg-gray-100 return-key-type-send autocapitalization-text-sentences android:px-6 ios:px-2 ios:py-2.5 android:border-style-none rounded-6" onReturn="sendMessage" />
+
+			<Button class="mr-0 text-xl text-center text-gray-700 bg-transparent border-0 border-transparent wh-10 ri ri-send-plane-2-line" ios:onSingletap="sendMessage" android:onClick="sendMessage" />
+		</View>
+	</Window>
+</Alloy>
