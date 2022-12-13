@@ -16,7 +16,7 @@ It will contain the following demos:
 - Chats ✅
 - Contacts
 - Rentals
-- Transactions
+- Bank Transactions
 - Venues
 
 ### Data Collections
