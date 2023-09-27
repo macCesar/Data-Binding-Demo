@@ -1,8 +1,8 @@
 .DS_Store
 /Resources
-/node_modules
 /platform
 /i18n
+/node_modules
 build.log
 build
 npm-debug.log
