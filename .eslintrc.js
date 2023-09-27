@@ -30,6 +30,7 @@ module.exports = {
     'space-before-function-paren': [
       'error',
       'never'
-    ]
+    ],
+    'security/detect-non-literal-require': 'off'
   }
 }

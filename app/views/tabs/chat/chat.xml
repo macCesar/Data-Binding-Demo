@@ -7,10 +7,10 @@
         <!-- sent -->
         <ItemTemplate name="sent">
           <View class="w-2/3 h-auto mr-0 my-1.5">
-            <Label class="text-2xl text-violet-500 mb-(7.5) mr-1.5 ri ri-arrow-right-fill" />
+            <Label class="text-2xl text-violet-500 mb-(3) mr-1.5 ri ri-arrow-right-fill" />
 
             <View class="mr-4 bg-violet-500 wh-auto rounded-4">
-              <Label bindId="message" class="mx-3 android:text-base ios:text-sm android:mt-2 android:mb-2.5 ios:my-2.5 wh-auto text-violet-50" />
+              <Label bindId="message" class="mx-2.5 android:text-base ios:text-sm android:mt-2 android:mb-2.5 ios:my-1.5 wh-auto text-violet-50" />
             </View>
           </View>
         </ItemTemplate>
@@ -20,7 +20,7 @@
           <View class="w-2/3 h-auto ml-3 my-1.5">
             <ImageView bindId="avatar" class="mb-0 ml-0 bg-violet-100 prevent-default-image wh-10 rounded-tl-br-4" />
 
-            <Label class="text-2xl text-violet-100 mb-(7.5) ml-(38) ri ri-arrow-left-fill" />
+            <Label class="text-2xl text-violet-100 mb-(3) ml-(38) ri ri-arrow-left-fill" />
 
             <View class="ml-12 wh-auto vertical">
               <View class="ml-1 horizontal wh-auto">
@@ -29,7 +29,7 @@
               </View>
 
               <View class="ml-0 mt-0.5 bg-violet-100 wh-auto rounded-4">
-                <Label bindId="message" class="mx-3 text-gray-900 android:text-base ios:text-sm android:mt-2 android:mb-2.5 ios:my-2.5 wh-auto" />
+                <Label bindId="message" class="text-gray-900 mx-2.5 android:text-base ios:text-sm android:mt-2 android:mb-2.5 ios:my-1.5 wh-auto" />
               </View>
             </View>
           </View>

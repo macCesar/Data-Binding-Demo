@@ -46,6 +46,7 @@
 '.mt-0.5': { top: 2 }
 '.mt-1.5': { top: 6 }
 '.mx-10': { right: 40, left: 40 }
+'.mx-2.5': { right: 10, left: 10 }
 '.mx-3': { right: 12, left: 12 }
 '.my-1.5': { top: 6, bottom: 6 }
 '.my-2': { top: 8, bottom: 8 }
@@ -98,13 +99,13 @@
 '.android:mt-2[platform=android]': { top: 8 }
 '.android:px-6[platform=android]': { padding: { right: 24, left: 24 } }
 '.android:text-base[platform=android]': { font: { fontSize: 16 } }
-'.ios:my-2.5[platform=ios]': { top: 10, bottom: 10 }
+'.ios:my-1.5[platform=ios]': { top: 6, bottom: 6 }
 '.ios:px-2[platform=ios]': { padding: { right: 8, left: 8 } }
 '.ios:py-2.5[platform=ios]': { padding: { top: 10, bottom: 10 } }
 '.ios:text-sm[platform=ios]': { font: { fontSize: 14 } }
 
 // Arbitrary Values
-'.mb-(7.5)': { bottom: 7.5 }
+'.mb-(3)': { bottom: 3 }
 '.ml-(38)': { left: 38 }
 '.text-(10)': { font: { fontSize: 10 } }
 
