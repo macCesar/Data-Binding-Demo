@@ -38,9 +38,9 @@ function sendMessage() {
 // ! Response Simulator
 const sender = messages[0].sender
 
-const groupMembers = [ ...new Set(messages
+const groupMembers = [...new Set(messages
   .filter(msg => msg.type === 'received')
-  .map(msg => JSON.stringify(msg.sender))) ]
+  .map(msg => JSON.stringify(msg.sender)))]
   .map(str => JSON.parse(str))
 
 let someResponses = [

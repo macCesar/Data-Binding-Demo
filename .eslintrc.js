@@ -9,7 +9,8 @@ module.exports = {
   rules: {
     indent: [
       'error',
-      2
+      2,
+      { SwitchCase: 1 }
     ],
     quotes: [
       'error',
@@ -23,14 +24,12 @@ module.exports = {
       'error',
       { max: 2 }
     ],
-    curly: [
-      'error',
-      'multi'
-    ],
     'space-before-function-paren': [
       'error',
       'never'
     ],
-    'security/detect-non-literal-require': 'off'
+    'array-bracket-spacing': [
+      'error', 'never'
+    ]
   }
 }
