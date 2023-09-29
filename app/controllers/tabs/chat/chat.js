@@ -1,3 +1,4 @@
+// eslint-disable-next-line security/detect-non-literal-require
 let messages = require($.args.messages)
 
 function doOpen() {
