@@ -22,7 +22,7 @@
         </ItemTemplate>
       </Templates>
 
-      <ListSection id="seccion" dataCollection="chats" dataTransform="transformChats">
+      <ListSection id="section" dataCollection="chats" dataTransform="transformChats">
         <ListItem template="chats" class="bg-transparent bg-selected-violet-100" member:image="{member}" members:text="{members}" datetime:text="{time}" name:text="{name}" avatar:image="{image}" group:visible="{group}" message:text="{message}" />
       </ListSection>
     </ListView>
