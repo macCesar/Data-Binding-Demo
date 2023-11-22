@@ -1,3 +1,7 @@
+// TiKit UI v1.0.10
+// Created by César Estrada
+// https://purgetss.com/tikit
+
 // ! First Responders
 exports.createView = args => {
   let kitComponent = Ti.UI.createView(args)
@@ -132,7 +136,8 @@ exports.createTikitAlert = args => {
 
 exports.createTikitAvatar = args => {
   if (args.border) {
-    args.borderWidth = 2; args.borderColor = '#fff'
+    args.borderWidth = 2
+    args.borderColor = '#fff'
   }
 
   let kitComponent = (args.component === 'avatar') ? Ti.UI.createImageView(args) : Ti.UI.createView(args)
@@ -152,8 +157,8 @@ exports.createTikitAvatar = args => {
 exports.createTikitCode = args => {
   let kitComponent = Ti.UI.createView(args)
 
-  if (args.copy) {
-    kitComponent.addEventListener('click', tiKitCopy)
+  if (args.copy || args.close) {
+    kitComponent.addEventListener('click', tiKitCodeEvent)
   }
 
   if (args.classes) {
@@ -174,22 +179,24 @@ exports.createTikitCard = args => {
 }
 
 // !Helper Functions
-function tiKitEvent(e) {
+function tiKitEvent({ source }) {
   // Remove alert
-  if (e.source.component === 'alert') {
-    e.source.removeEventListener('click', tiKitEvent)
+  if (source.component === 'alert') {
+    source.removeEventListener('click', tiKitEvent)
 
-    e.source.animate({ opacity: 0, duration: (e.source.duration) ? e.source.duration : 250 }, () => {
-      e.source.parent.remove(e.source)
+    source.animate({ opacity: 0, duration: (source.duration) ? source.duration : 250 }, () => {
+      source.parent.remove(source)
     })
   }
 }
 
-function tiKitCopy(e) {
-  if (e.source.btn === 'copy') {
-    Ti.UI.Clipboard.setText(e.source.value)
-
-    alert(L('code_copied', 'Code copied to clipboard!'))
+function tiKitCodeEvent({ source }) {
+  if (source.btn === 'copy') {
+    Ti.UI.Clipboard.setText(source.value)
+    source.applyProperties({ title: L('copied', 'Copied') })
+    setTimeout(() => source.applyProperties({ title: L('copy', 'Copy') }), 1500)
+  } else if (source.btn === 'close') {
+    source.parent.parent.hide()
   }
 }
 
@@ -198,13 +205,36 @@ function componentExists(_component, _variant, _file) {
 }
 
 function createComponent(_component, _variant, _file, _args) {
-  return Alloy.createController(`tikit/${_component}/${_variant}/${_file}`, _args).getView()
+  let component = Alloy.createController(`tikit/${_component}/${_variant}/${_file}`, _args).getView()
+  component.updateTitle = args => {
+    let _title = component.getViewById('title')
+    if (_title) {
+      _title.applyProperties({ text: args })
+    }
+  }
+  component.updateSubtitle = args => {
+    let _subtitle = component.getViewById('subtitle')
+    if (_subtitle) {
+      _subtitle.applyProperties({ text: args })
+    }
+  }
+  component.updateText = args => {
+    let _copy = component.getViewById('copy')
+    let _text = component.getViewById('text')
+    if (_copy) {
+      _copy.applyProperties({ value: args })
+    }
+    if (_text) {
+      _text.applyProperties({ text: args })
+      _text.applyProperties({ value: args, height: Ti.UI.SIZE })
+    }
+  }
+  return component
 }
 
 function createStyles(_styles, _view) {
   // apiName is not included in `Alloy.createStyle` to avoid getting extra properties from `index`
-  let styles = Alloy.createStyle('index', {
-    classes: _styles.filter(Boolean) })
+  let styles = Alloy.createStyle('index', { classes: _styles.filter(Boolean) })
   styles.apiName = _view
 
   return styles
