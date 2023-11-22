@@ -44,6 +44,32 @@ const groupMembers = [...new Set(messages
   .map(msg => JSON.stringify(msg.sender)))]
   .map(str => JSON.parse(str))
 
+function randomResponse() {
+  return _.shuffle(someResponses)[0]
+}
+
+function responseSimulator() {
+  _.each(groupMembers, sender => {
+    let individualMessage = new Backbone.Model({
+      sender,
+      message: '...',
+      type: 'received',
+      timestamp: new Date().toISOString()
+    })
+
+    setTimeout(() => {
+      Alloy.Collections.chat.add(individualMessage)
+      scrollChatToBottom()
+
+      let message = randomResponse()
+      setTimeout(() => {
+        individualMessage.set({ message })
+        scrollChatToBottom()
+      }, 150 * message.length)
+    }, 1000 * (Math.floor(Math.random() * 8)))
+  })
+}
+
 let someResponses = [
   'Adieu and take care.',
   'Bye for now.',
@@ -85,29 +111,3 @@ let someResponses = [
   'Until our next rendezvous.',
   'Wishing you a fantastic day ahead!'
 ]
-
-function randomResponse() {
-  return _.shuffle(someResponses)[0]
-}
-
-function responseSimulator() {
-  _.each(groupMembers, sender => {
-    let individualMessage = new Backbone.Model({
-      sender,
-      message: '...',
-      type: 'received',
-      timestamp: new Date().toISOString()
-    })
-
-    setTimeout(() => {
-      Alloy.Collections.chat.add(individualMessage)
-      scrollChatToBottom()
-
-      let message = randomResponse()
-      setTimeout(() => {
-        individualMessage.set({ message })
-        scrollChatToBottom()
-      }, 125 * message.length)
-    }, 1000 * (Math.floor(Math.random() * 8)))
-  })
-}
