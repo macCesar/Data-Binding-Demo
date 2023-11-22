@@ -22,7 +22,7 @@ module.exports = {
     ],
     'max-statements-per-line': [
       'error',
-      { max: 2 }
+      { max: 1 }
     ],
     'space-before-function-paren': [
       'error',
